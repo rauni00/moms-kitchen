@@ -1,0 +1,21 @@
+#category {
+    cursor: pointer;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    border: 0.5px solid #abc5c2;
+    border-radius: 15px;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: black;
+}
+
+#category:hover {
+    box-shadow: 0 0 10px 0 #c4d4d3 inset, 0 0 5px 2px #343a39;
+    border: 1px solid #b38282;
+}

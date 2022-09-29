@@ -1,0 +1,33 @@
+* {
+    /* font-family: cursive; */
+    font: italic;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    /* width: fit-content; */
+    color: white;
+}
+
+.imageText {
+    position: absolute;
+    /* font-family: cursive; */
+    font-size: 4vw;
+    margin-left: 10%;
+    margin-top: 8%;
+    font-weight: bold;
+}
+
+.fa {
+    margin-left: 6%;
+}
+
+#findBtn {
+    /* margin-left: 0%; */
+    font-size: 2vh;
+    /* size: 10vh; */
+    /* width: 50%; */
+    /* margin-top: 0%; */
+    border-radius: 20px;
+}
