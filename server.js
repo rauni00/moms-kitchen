@@ -6,6 +6,7 @@ const app = express();
 const users = require('./route/api/users');
 const dish = require('./route/api/dish');
 const category = require('./route/api/category');
+const path = require('path');
 const cart = require('./route/api/cart');
 // const addCategory = require('./route/api/addCategory');
 
@@ -30,7 +31,7 @@ app.use('/api/users', users);
 app.use('/api/dish', dish);
 app.use('/api/cart', cart);
 app.use('/api/category', category);
-if (process.env.NODE_ENV === 'production') {
+if ('production' === 'production') {
 	app.use(express.static('client/build'));
 	app.get('*', (req, res) => {
 		res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
